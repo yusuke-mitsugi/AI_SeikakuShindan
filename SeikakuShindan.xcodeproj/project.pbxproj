@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8611A6FB441CD97A3E6D1505 /* Pods_SeikakuShindan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96AAF44A86B09FC242D79C /* Pods_SeikakuShindan.framework */; };
 		B16BE2F424C14A4400951122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE2F324C14A4400951122 /* AppDelegate.swift */; };
 		B16BE2F624C14A4400951122 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE2F524C14A4400951122 /* SceneDelegate.swift */; };
 		B16BE2F824C14A4400951122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE2F724C14A4400951122 /* ViewController.swift */; };
 		B16BE2FB24C14A4400951122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BE2F924C14A4400951122 /* Main.storyboard */; };
 		B16BE2FD24C14A4500951122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16BE2FC24C14A4500951122 /* Assets.xcassets */; };
 		B16BE30024C14A4500951122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BE2FE24C14A4500951122 /* LaunchScreen.storyboard */; };
+		B16BE30824C14ABE00951122 /* analyze.json in Resources */ = {isa = PBXBuildFile; fileRef = B16BE30724C14ABE00951122 /* analyze.json */; };
+		B16BE30A24C14ACB00951122 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B16BE30924C14ACB00951122 /* loading.json */; };
+		B16BE30F24C14F8100951122 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE30B24C14F8000951122 /* UIColorExtension.swift */; };
+		B16BE31024C14F8100951122 /* RadarMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16BE30C24C14F8000951122 /* RadarMarkerView.xib */; };
+		B16BE31124C14F8100951122 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE30D24C14F8000951122 /* DemoBaseViewController.swift */; };
+		B16BE31224C14F8100951122 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE30E24C14F8100951122 /* RadarMarkerView.swift */; };
+		B16BE31424C18BCC00951122 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE31324C18BCC00951122 /* DetailViewController.swift */; };
+		B16BE31624C196BB00951122 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE31524C196BB00951122 /* WebViewController.swift */; };
+		B16BE31824C1BC6000951122 /* Personality_TrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE31724C1BC6000951122 /* Personality_TrendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223F2E84BC33F5FD009B87D9 /* Pods-SeikakuShindan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeikakuShindan.release.xcconfig"; path = "Target Support Files/Pods-SeikakuShindan/Pods-SeikakuShindan.release.xcconfig"; sourceTree = "<group>"; };
+		4F96AAF44A86B09FC242D79C /* Pods_SeikakuShindan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeikakuShindan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84B5E304EF0A1D31700919 /* Pods-SeikakuShindan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeikakuShindan.debug.xcconfig"; path = "Target Support Files/Pods-SeikakuShindan/Pods-SeikakuShindan.debug.xcconfig"; sourceTree = "<group>"; };
 		B16BE2F024C14A4400951122 /* SeikakuShindan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeikakuShindan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16BE2F324C14A4400951122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B16BE2F524C14A4400951122 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,15 @@
 		B16BE2FC24C14A4500951122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16BE2FF24C14A4500951122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16BE30124C14A4500951122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16BE30724C14ABE00951122 /* analyze.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = analyze.json; sourceTree = "<group>"; };
+		B16BE30924C14ACB00951122 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		B16BE30B24C14F8000951122 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B16BE30C24C14F8000951122 /* RadarMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarMarkerView.xib; sourceTree = "<group>"; };
+		B16BE30D24C14F8000951122 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		B16BE30E24C14F8100951122 /* RadarMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
+		B16BE31324C18BCC00951122 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B16BE31524C196BB00951122 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B16BE31724C1BC6000951122 /* Personality_TrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_TrendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8611A6FB441CD97A3E6D1505 /* Pods_SeikakuShindan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7017200242C55C1E74ABDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F96AAF44A86B09FC242D79C /* Pods_SeikakuShindan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B16BE2E724C14A4400951122 = {
 			isa = PBXGroup;
 			children = (
 				B16BE2F224C14A4400951122 /* SeikakuShindan */,
 				B16BE2F124C14A4400951122 /* Products */,
+				B49CBB64280A32B79F7FBA7B /* Pods */,
+				1F7017200242C55C1E74ABDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +92,30 @@
 				B16BE2F324C14A4400951122 /* AppDelegate.swift */,
 				B16BE2F524C14A4400951122 /* SceneDelegate.swift */,
 				B16BE2F724C14A4400951122 /* ViewController.swift */,
+				B16BE31324C18BCC00951122 /* DetailViewController.swift */,
+				B16BE31524C196BB00951122 /* WebViewController.swift */,
+				B16BE31724C1BC6000951122 /* Personality_TrendsViewController.swift */,
 				B16BE2F924C14A4400951122 /* Main.storyboard */,
+				B16BE30D24C14F8000951122 /* DemoBaseViewController.swift */,
+				B16BE30E24C14F8100951122 /* RadarMarkerView.swift */,
+				B16BE30C24C14F8000951122 /* RadarMarkerView.xib */,
+				B16BE30B24C14F8000951122 /* UIColorExtension.swift */,
 				B16BE2FC24C14A4500951122 /* Assets.xcassets */,
 				B16BE2FE24C14A4500951122 /* LaunchScreen.storyboard */,
 				B16BE30124C14A4500951122 /* Info.plist */,
+				B16BE30724C14ABE00951122 /* analyze.json */,
+				B16BE30924C14ACB00951122 /* loading.json */,
 			);
 			path = SeikakuShindan;
+			sourceTree = "<group>";
+		};
+		B49CBB64280A32B79F7FBA7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A84B5E304EF0A1D31700919 /* Pods-SeikakuShindan.debug.xcconfig */,
+				223F2E84BC33F5FD009B87D9 /* Pods-SeikakuShindan.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B16BE30424C14A4500951122 /* Build configuration list for PBXNativeTarget "SeikakuShindan" */;
 			buildPhases = (
+				C67145E0132943F7F9B9CE8E /* [CP] Check Pods Manifest.lock */,
 				B16BE2EC24C14A4400951122 /* Sources */,
 				B16BE2ED24C14A4400951122 /* Frameworks */,
 				B16BE2EE24C14A4400951122 /* Resources */,
+				D100A42CE2EC373D7004253E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +178,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16BE30824C14ABE00951122 /* analyze.json in Resources */,
 				B16BE30024C14A4500951122 /* LaunchScreen.storyboard in Resources */,
 				B16BE2FD24C14A4500951122 /* Assets.xcassets in Resources */,
 				B16BE2FB24C14A4400951122 /* Main.storyboard in Resources */,
+				B16BE30A24C14ACB00951122 /* loading.json in Resources */,
+				B16BE31024C14F8100951122 /* RadarMarkerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C67145E0132943F7F9B9CE8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeikakuShindan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D100A42CE2EC373D7004253E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeikakuShindan/Pods-SeikakuShindan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeikakuShindan/Pods-SeikakuShindan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeikakuShindan/Pods-SeikakuShindan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B16BE2EC24C14A4400951122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16BE31124C14F8100951122 /* DemoBaseViewController.swift in Sources */,
 				B16BE2F824C14A4400951122 /* ViewController.swift in Sources */,
+				B16BE31824C1BC6000951122 /* Personality_TrendsViewController.swift in Sources */,
 				B16BE2F424C14A4400951122 /* AppDelegate.swift in Sources */,
+				B16BE31224C14F8100951122 /* RadarMarkerView.swift in Sources */,
 				B16BE2F624C14A4400951122 /* SceneDelegate.swift in Sources */,
+				B16BE30F24C14F8100951122 /* UIColorExtension.swift in Sources */,
+				B16BE31424C18BCC00951122 /* DetailViewController.swift in Sources */,
+				B16BE31624C196BB00951122 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		B16BE30524C14A4500951122 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A84B5E304EF0A1D31700919 /* Pods-SeikakuShindan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +405,7 @@
 		};
 		B16BE30624C14A4500951122 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223F2E84BC33F5FD009B87D9 /* Pods-SeikakuShindan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
